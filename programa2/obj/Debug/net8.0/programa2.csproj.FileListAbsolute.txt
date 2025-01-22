@@ -1,0 +1,14 @@
+C:\Users\oscar\OneDrive\Escritorio\Escritorio\Proyectos C sharp\ENE21CLASE\programa2\bin\Debug\net8.0\programa2.exe
+C:\Users\oscar\OneDrive\Escritorio\Escritorio\Proyectos C sharp\ENE21CLASE\programa2\bin\Debug\net8.0\programa2.deps.json
+C:\Users\oscar\OneDrive\Escritorio\Escritorio\Proyectos C sharp\ENE21CLASE\programa2\bin\Debug\net8.0\programa2.runtimeconfig.json
+C:\Users\oscar\OneDrive\Escritorio\Escritorio\Proyectos C sharp\ENE21CLASE\programa2\bin\Debug\net8.0\programa2.dll
+C:\Users\oscar\OneDrive\Escritorio\Escritorio\Proyectos C sharp\ENE21CLASE\programa2\bin\Debug\net8.0\programa2.pdb
+C:\Users\oscar\OneDrive\Escritorio\Escritorio\Proyectos C sharp\ENE21CLASE\programa2\obj\Debug\net8.0\programa2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oscar\OneDrive\Escritorio\Escritorio\Proyectos C sharp\ENE21CLASE\programa2\obj\Debug\net8.0\programa2.AssemblyInfoInputs.cache
+C:\Users\oscar\OneDrive\Escritorio\Escritorio\Proyectos C sharp\ENE21CLASE\programa2\obj\Debug\net8.0\programa2.AssemblyInfo.cs
+C:\Users\oscar\OneDrive\Escritorio\Escritorio\Proyectos C sharp\ENE21CLASE\programa2\obj\Debug\net8.0\programa2.csproj.CoreCompileInputs.cache
+C:\Users\oscar\OneDrive\Escritorio\Escritorio\Proyectos C sharp\ENE21CLASE\programa2\obj\Debug\net8.0\programa2.dll
+C:\Users\oscar\OneDrive\Escritorio\Escritorio\Proyectos C sharp\ENE21CLASE\programa2\obj\Debug\net8.0\refint\programa2.dll
+C:\Users\oscar\OneDrive\Escritorio\Escritorio\Proyectos C sharp\ENE21CLASE\programa2\obj\Debug\net8.0\programa2.pdb
+C:\Users\oscar\OneDrive\Escritorio\Escritorio\Proyectos C sharp\ENE21CLASE\programa2\obj\Debug\net8.0\programa2.genruntimeconfig.cache
+C:\Users\oscar\OneDrive\Escritorio\Escritorio\Proyectos C sharp\ENE21CLASE\programa2\obj\Debug\net8.0\ref\programa2.dll
