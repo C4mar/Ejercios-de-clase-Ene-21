@@ -1,47 +1,58 @@
-﻿using System;
+using System;
 
 class Program
 {
     static void Main()
     {
-        Console.Write("Ingrese la cantidad de triángulos a calcular: ");
-        int cantidad = int.Parse(Console.ReadLine());
-
-        for (int i = 1; i <= cantidad; i++)
+        while (true)
         {
-            Console.WriteLine($"\nTriángulo {i}:");
-            
-            Console.Write("Ingrese el lado a: ");
+            // Solicitar los tres lados del triángulo
+            Console.Write("Ingrese el primer lado (a): ");
             double a = double.Parse(Console.ReadLine());
 
-            Console.Write("Ingrese el lado b: ");
+            Console.Write("Ingrese el segundo lado (b): ");
             double b = double.Parse(Console.ReadLine());
 
-            Console.Write("Ingrese el lado c: ");
+            Console.Write("Ingrese el tercer lado (c): ");
             double c = double.Parse(Console.ReadLine());
 
-            if (EsTrianguloValido(a, b, c))
+            // Terminar si los tres lados son 0
+            if (a == 0 && b == 0 && c == 0)
+                break;
+
+            // Verificar que los lados formen un triángulo válido
+            if (a + b > c && a + c > b && b + c > a)
             {
-                double area = CalcularArea(a, b, c);
-                Console.WriteLine($"El área del triángulo {i} es: {area:F2}");
+                // Calcular el semi-perímetro
+                double p = (a + b + c) / 2;
+
+                // Aplicar la fórmula de Herón para el área
+                double area = Math.Sqrt(p * (p - a) * (p - b) * (p - c));
+
+                // Mostrar el área calculada
+                Console.WriteLine($"El área del triángulo es: {area:F2}");
+
+                // Determinar el tipo de triángulo
+                if (a == b && b == c)
+                {
+                    Console.WriteLine("El triángulo es Equilátero.");
+                }
+                else if (a == b || b == c || a == c)
+                {
+                    Console.WriteLine("El triángulo es Isósceles.");
+                }
+                else
+                {
+                    Console.WriteLine("El triángulo es Escaleno.");
+                }
+                Console.WriteLine();
             }
             else
             {
-                Console.WriteLine("Los lados ingresados no forman un triángulo válido.");
+                Console.WriteLine("Los valores ingresados no forman un triángulo válido. Intente nuevamente.\n");
             }
         }
-    }
 
-    // Método para calcular el área usando la fórmula de Herón
-    static double CalcularArea(double a, double b, double c)
-    {
-        double p = (a + b + c) / 2;
-        return Math.Sqrt(p * (p - a) * (p - b) * (p - c));
-    }
-
-    // Método para verificar si los lados forman un triángulo válido
-    static bool EsTrianguloValido(double a, double b, double c)
-    {
-        return (a + b > c) && (a + c > b) && (b + c > a);
+        Console.WriteLine("Fin del programa.");
     }
 }
